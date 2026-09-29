@@ -1,0 +1,11 @@
+seed: 2024
+gpu: 0
+width: 144
+qf_min: 10
+qf_max: 70
+subsampling: "444"
+tile: 512
+tile_overlap: 64
+checkpoint: weights/cacrnet_blind_epoch1030.pth
+gt_dir: /path/to/LIVE1/HR
+output_dir: results/LIVE1
